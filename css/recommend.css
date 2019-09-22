@@ -1,0 +1,127 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+#home{
+    background-image: url("../image/background.jpg");
+    text-align: center;
+    background-size: cover;
+    padding: 80px;
+}
+#home h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: kaiti;
+    margin-top: 150px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 22px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+    height: 550px;
+    width: 100%;
+}
+
+#two{
+    padding: 80px;
+    text-align: center;
+
+}
+#two img{
+  margin: 0 auto;
+}
+#two h3{
+    font-weight: bold;
+    font-family: kaiti;
+}
+#two p{
+    font-size: 22px;
+}
+#two a{
+    color: #2e365e;
+}
+#two .col-md-4:hover{
+    padding: 15px;
+    opacity: 0.6;
+    box-shadow: 1px 1px 4px #bfc2c5;
+}
+
+/*HTML5 + bootstrap*/
+#girl{
+    background: #f8f8f8;
+}
+#girl , #boy{
+    padding: 80px 0;
+}
+#girl h2 , #boy h2{
+    font-weight: bold;
+}
+#girl p  , #boy p{
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/*course*/
+#course{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+#course .col-md-3{
+    margin-bottom: 20px;
+}
+.course {
+    background: #ffffff;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #4acddd;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: 0.6s all ease ;
+}
+#course .btn:hover{
+    background: #4acddd;
+    color: #fff;
+}
+/*open*/
+#open{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+#open p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+#open .col-md-10{
+    background:url("../image/open.JPG" ) no-repeat;
+    background-size: cover;
+    padding: 30px;
+
+}
+#open .btn{
+    font-size: 30px;
+    background: transparent;
+    border: 1px solid #4acddd;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 40px;
+    transition: 0.6s all ease ;
+}
+#open .btn:hover{
+    background: #4acddd;
+    color: #fff;
+}

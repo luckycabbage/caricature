@@ -1,0 +1,483 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+a{
+    color: #efefef;
+    text-decoration:none;
+}
+ul,li,ol{
+    list-style: none;
+}
+.header{
+
+    height: 80px;
+    background: #34495e;
+    padding: 0 20px;
+
+
+}
+.nav{
+    position: relative;
+    width: 1200px;
+    height: 40px;
+    padding: 16px 0;
+
+}
+.logo{
+    text-align: center;
+    width: 100px;
+    padding-top:5px ;
+    padding-right:20px ;
+    float: left;
+    font-size: 28px;
+    color: white;
+}
+.nav-left{
+
+    padding-left:113px ;
+    float: left;
+    padding-top:10px ;
+}
+.nav-left a{
+    padding: 0 15px;
+}
+.item,.item_2{
+    float: left;
+    padding-right: 32px;
+    display: list-item;
+    text-align: center;
+    font-size: medium;
+}
+
+.nav-right{
+    position: absolute;
+    top: 25px;
+     right:60px;
+    width: 400px;
+    height: 40px;
+    background: none;
+}
+.xx{
+    float: right;
+    height: 40px;
+    width: 160px;
+    margin-top: 5px;
+
+}
+
+.nav-bottom{
+    position: relative;
+    width: 100%;
+    height: 476px;
+    background: #333240;
+    min-width: 1200px;
+    max-width: 2264px;
+    overflow: hidden;
+}
+/*搜索按钮===========*/
+.search-box{
+    float: left;
+    position: absolute;
+    height: 30px;
+    width: 190px;
+    background: silver;
+    border-radius: 14px;
+    border: none;
+
+}
+.search-btn{
+    float: right;
+    right: 10px;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-btn i{
+    color: white;
+}
+.search-home{
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 140px;
+
+}
+.xx{
+    float: right;
+    height: 40px;
+    width: 160px;
+    margin-top: 5px;
+
+}
+
+.nav-bottom{
+    position: relative;
+    width: 100%;
+    height: 476px;
+    background: #333240;
+    min-width: 1200px;
+    max-width: 2264px;
+    overflow: hidden;
+}
+/*轮播图部分-----------------------*/
+.bottombox{
+    position: relative;
+    width: 100%;
+    height: 388px;
+    min-width: 1200px;
+    max-width: 2264px;
+    background:#333240 ;
+    overflow: hidden;
+    margin-top: 24px;
+}
+#imageleft{
+    float: left;
+    position: absolute;
+    width: 800px;
+    height: 388px;
+    left: -300px;
+    overflow: hidden;
+    border-radius:10px;
+    z-index: 2;
+}
+#imageleft ul {
+    height:100%;
+}
+#imageleft ul li {
+    width: 880px;
+    height:100%;
+    float:left
+}
+
+#imagecontent{
+    position: absolute;
+    left: 510px;
+    width: 880px;
+    height: 388px;
+    overflow: hidden;
+    border-radius:10px;
+    z-index: 2;
+}
+#imagecontent ul {
+    height:100%;
+}
+#imagecontent ul li {
+    width: 880px;
+    height:100%;
+    float:left
+}
+#imageright{
+    position: absolute;
+    right: -300px;
+    width: 800px;
+    height: 388px;
+    overflow: hidden;
+    border-radius:10px;
+    z-index: 2;
+}
+#imageright ul {
+    height:100%;
+}
+#imageright ul li {
+    width: 880px;
+    height:100%;
+    float:left
+}
+
+.lableNav{
+    position: relative;
+    margin: 0 auto;
+    padding: 22px 0;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    background:#333240 ;
+}
+.lableNav_c{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    height: 30px;
+    width: 1200px;
+    color: #efefef;
+}
+.item_2{
+    cursor: pointer;
+    padding-left: 20px;
+
+}
+
+.content{
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 32px;
+    background: snow;
+}
+
+
+/*中间表白部分---------------------------*/
+.love{
+    width: 100%;
+    height: 600px;
+}
+.content-one{
+    width: 1000px;
+    height: 600px;
+    float: left;
+    margin-left: 200px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 10px;
+}
+.liketitle,.mostlike{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.liketitle p,.mostlike p{
+    font-family: Arial;
+    font-size: 24px;
+}
+.link{
+    height:600px ;
+    width: 100%;
+
+}
+/*pick部分===============================*/
+.linkone{
+    height: 100%;
+    width:1520px;
+    border: 1px solid #97a7af;
+    margin-left: 200px;
+}
+
+.items{
+    float: left;
+    margin: 20px 20px;
+    width: 263px;
+    height: 500px;
+
+}
+.image-box{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    background-image: url("../image/ye8.jpeg");
+    background-size:100% 100% ;
+}
+.s1{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+}
+.s2{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+.s3{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+.linkone p{
+    font-size: 26px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+/*表白部分=============*/
+.likelink{
+    width: 100%;
+    height: 550px;
+    background: snow;
+}
+.like{
+    width:300px ;
+    height: 500px;
+    background: snow;
+    float: left;
+    margin: 15px;
+    cursor: pointer;
+}
+.front,.back{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    text-align: center;
+}
+
+.front{
+    transform: perspective(600px) rotateY(0deg);
+    -webkit-transform: perspective(600px) rotateY(0deg) ;
+    -moz-transform:perspective(600px) rotateY(0deg);
+}
+.back{
+    background: white;
+    transform: perspective(600px) rotateY(180deg);
+    -webkit-transform: perspective(600px) rotateY(180deg) ;
+    -moz-transform:perspective(600px) rotateY(180deg);
+}
+ .like:hover .front{
+    transform: perspective(600px) rotateY(-180deg);
+     -webkit-transform: perspective(600px) rotateY(-180deg) ;
+     -moz-transform:perspective(600px) rotateY(-180deg);
+}
+ .like:hover .back{
+    transform: perspective(600px) rotateY(0deg);
+     -webkit-transform: perspective(600px) rotateY(0deg) ;
+     -moz-transform:perspective(600px) rotateY(0deg);
+}
+
+/*表白部分右边================*/
+.content-two{
+    width: 500px;
+    height:600px ;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.mostlike_c{
+    width: auto;
+    height: 540px;
+    margin-top: 10px;
+}
+.most_1{
+    width: auto;
+    height: 125px;
+    background: lightblue;
+    margin-top: 10px;
+}
+.most_11{
+    width: 260px;
+    height: 125px;
+    float: right;
+    font-size: 20px;
+}
+
+/*尾部---------------------------------*/
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    padding-top: 32px;
+    background: #333240;
+}
+.nav a:hover,
+.xx a:hover,
+.lableNav_c a:hover{
+    color: white;
+}
+/*每日更新部分-------------------------------------*/
+.Dailyupdate{
+    width: 1550px;
+    height: 600px;
+    margin: 15px auto;
+
+}
+.Dailynav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.Dailynav span{
+    font-size: 26px;
+    margin-left: 20px;
+    float: left;
+}
+.lable{
+    width: 600px;
+    height: 100%;
+    float: left;
+    margin-left:70px ;
+}
+.lable li{
+    float: left;
+}
+.lable a{
+    padding: 0 20px;
+    color: black;
+}
+.update-item{
+    width: 286px;
+    height: 200px;
+    float: left;
+    margin: 30px 10px;
+
+}
+.itemimage{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+}
+.itemimage img{
+    width:100%;
+    height: 100%;
+}
+.itembottom{
+    display: block;
+    padding: 4px 6px 0 6px;
+    width: 275px;
+    height: 30px;
+    background: #82b0cf;
+}
+.s4{
+   float: left;
+    color: black;
+}
+.s5{
+   float: right;
+}
+/*回到顶部====================================*/
+.bar{
+    width: 45px;
+    height: 54px;
+    background: #a6d3ff;
+    line-height: 54px;
+    position: fixed;
+    right: 125px;
+    bottom: 50px;
+}
+.bar i{
+    color: black;
+}
+.bar a{
+padding: 15px;
+}

@@ -1,0 +1,2772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cartoon</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-ui.js"></script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-color gao">
+    <div class="container-fluid container" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <h4>Cartoon</h4>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li ><a href="#" class="active">首页 </a></li>
+                <li><a href="classification.html" target="_blank">分类</a></li>
+                <li><a href="#">排行榜</a>  </li>
+                <li ><a href="#">APP下载</a></li>
+                <li ><a href="#">同人社区</a></li>
+                <li ><a href="#">动漫安利</a></li>
+                <li ><a href="#">我要投稿</a></li>
+                <li ><a href="#">大触觉醒</a></li>
+            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                <!--登陆-------------------------->
+                <li>
+                <a href="signin.html">登录</a>
+                  </li>
+                <li>
+                    <!--注册---------------------------------->
+                    <a href="logon.html" >注册</a>
+                </li>
+                </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control search" placeholder="搜索">
+            </form>
+        </div>
+    </div>
+</nav>
+<!--轮播图-->
+<div  class="banner">
+    <div class="banner-box">
+        <div class="boxleft" id="imageleft">
+            <ul>
+                <div class="boxhide-left"></div>
+                <a href="#"><li><img src="image/ye3.jpeg" width="800px" height="388px"></li></a>
+                <a href="#"><li><img src="image/xiaohei.jpg" width="800px" height="388px"></li></a>
+                <a href="#"><li><img src="image/huayuan.jpg" width="800px" height="388px"></li></a>
+            </ul>
+
+        </div>
+
+        <div class="boxcontent" id="imagecontent">
+            <ul >
+                <a href="#"><li><img src="image/xiaohei.jpg" width="880px" height="388px" ></li></a>
+                <a href="#"><li><img src="image/huayuan.jpg" width="880px" height="388px" ></li></a>
+                <a href="#"><li><img src="image/ye3.jpeg" width="880px" height="388px" ></li></a>
+            </ul>
+        </div>
+
+        <div class="boxright" id="imageright">
+            <ul>
+                <div class="boxhide-right"></div>
+                <a href="#"><li> <img src="image/huayuan.jpg" width="800px" height="388px"></li></a>
+                <a href="#"><li> <img src="image/ye3.jpeg" width="800px" height="388px"></li></a>
+                <a href="#"><li> <img src="image/xiaohei.jpg" width="800px" height="388px"></li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="box-nav">
+        <div class="box-nav-c">
+            <ul>
+                <a href="#">奇幻</a>
+                <a href="#">悬疑</a>
+                <a href="#">恋爱</a>
+                <a href="#">惊悚</a>
+                <a href="#">完结</a>
+                <a href="#">日漫</a>
+                <a href="#">穿越</a>
+                <a href="#">全部</a>
+                <i class="fa fa-list-ul" aria-hidden="true"></i>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--高能集结和人气榜部分-->
+<section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="likeTitle">
+                <p>高能集结，总有一款适合你</p>
+            </div>
+
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like1.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">古风</i><i class="like_item fl">唯美</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">山神与小枣</span>
+                <div class="like_footer"><span >虫虫虫家</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like2.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">唯美</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">闪恋薄荷糖</span>
+                <div class="like_footer"><span >安左</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like3.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">爆笑</i><i class="like_item fl">恋爱</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">六月的不可思议</span>
+                <div class="like_footer"><span >六柴</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like4.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">奇幻</i><i class="like_item fl">剧情</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">一代灵后</span>
+                <div class="like_footer"><span >TUTU</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like5.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">古风</i><i class="like_item fl">奇幻</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">哑舍</span>
+                <div class="like_footer"><span >玄色（原著）</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like6.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">奇幻</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">前任战争</span>
+                <div class="like_footer"><span >SASA</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like7.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">治愈</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">不可爱的TA</span>
+                <div class="like_footer"><span >zero</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+            <div class="likeList fl mgr16">
+                <div class="likeBox">
+                    <a href="#">
+                        <div>
+                            <img src="image/like9.i1" alt="" class="imgs">
+                            <span class="like_t"><i class="like_item fl">古风</i><i class="like_item fl">古言</i></span>
+                        </div>
+                    </a>
+                </div>
+                <span class="itemTitle">应有长风倚碧鸢</span>
+                <div class="like_footer"><span >毛啾</span>
+                    <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3 class="title">人气榜</h3>
+            <div class="popularlist">
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl" style="color: orangered">1</strong><span class="fl tt">甜美的咬痕</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第一话 初见</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/list.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">甜美的咬痕</a></div>
+                            <div class="labellist clearfix"><span class="fl">奇幻</span><span class="fl">唯美</span><div></div></div>
+                            <div class="list-brief"><a href="#">多次登上排行榜的榜一，唯美的人族和血族的爱情故事</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第一话  初见</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl"style="color: orangered">2</strong><span class="fl tt">捡到只小狐狸</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第22话  小狐狸的身世</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/huli.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">捡到只小狐狸</a></div>
+                            <div class="labellist clearfix"><span class="fl">奇幻</span><span class="fl">感动</span><div></div></div>
+                            <div class="list-brief"><a href="#">萌萌的小狐狸，有谁不爱呢</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第22话  小狐狸的身世</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl"style="color: orangered">3</strong><span class="fl tt">怦然心动</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第10话 最闪耀的一缕光</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/pengranxindong.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">怦然心动</a></div>
+                            <div class="labellist clearfix"><span class="fl">剧情</span><span class="fl">校园</span><span class="fl">治愈</span><div></div></div>
+                            <div class="list-brief"><a href="#">最纯粹的校园初恋</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第10话 最闪耀的一缕光</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">4</strong><span class="fl tt">怪奇实录</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第10话 小怪奇</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/guaiqi.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">怪奇实录</a></div>
+                            <div class="labellist clearfix"><span class="fl">恐怖</span><span class="fl">灵异</span><span class="fl">剧情</span><div></div></div>
+                            <div class="list-brief"><a href="#">奇异事件，这些都是发生在身边的奇异事件，结局总让你意想不到</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第10话  小怪奇</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">5</strong><span class="fl tt">我的男票是锦衣卫</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">番外：危险任务</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/jinyiwei.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">我的男票是锦衣卫</a></div>
+                            <div class="labellist clearfix"><span class="fl">剧情</span><span class="fl">唯美</span><span class="fl">古风</span><div></div></div>
+                            <div class="list-brief"><a href="#">古风穿越唯美巨作，俏皮少女和傲娇锦衣卫的甜虐之旅</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">番外：危险任务</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">6</strong><span class="fl tt">整容游戏</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第15话  整容游戏的代价</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/zhengrong.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">整容游戏</a></div>
+                            <div class="labellist clearfix"><span class="fl">悬疑</span><span class="fl">剧情</span><div></div></div>
+                            <div class="list-brief"><a href="#">一款可以改变相貌的app悄然出现，但是使用是有代价的，如果是你，你会选择人性还是相貌</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第15话  整容游戏的代价</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">7</strong><span class="fl tt">命运胶囊</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第10话 换取的代价</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/jiaonang.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">命运胶囊</a></div>
+                            <div class="labellist clearfix"><span class="fl">奇幻</span><span class="fl">唯美</span><div></div></div>
+                            <div class="list-brief"><a href="#">如果有一种胶囊，能让你实现你的愿望，但是得拿你宝贵的东西交换，你会如何选择？</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第10话  换取的代价</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">8</strong><span class="fl tt">某天成为公主</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第12话 失忆！？</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/gongzhu.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">某天成为公主</a></div>
+                            <div class="labellist clearfix"><span class="fl">穿越</span><span class="fl">唯美</span><span class="fl">宫廷</span><div></div></div>
+                            <div class="list-brief"><a href="#">穿越成书中的可怜女配公主，如何改变自己必死的命运</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第12话  失忆！？</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">9</strong><span class="fl tt">女王的手术刀</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第4话 毒蛇大哥</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/shoushudao.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">女王的手术刀</a></div>
+                            <div class="labellist clearfix"><span class="fl">大女主</span><span class="fl">穿越</span><div></div></div>
+                            <div class="list-brief"><a href="#">前世的性命被爱人亲手断送，今生毒皇后会坚定成为济世良医，还是再次接受他的情意？</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第4话  毒蛇大哥</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="list-tit clearfix">
+                        <div class="left fl"><strong class="fl">10</strong><span class="fl tt">渐进的心跳</span></div>
+                        <div class="right fr"><span class="fl">更新至：</span><span class="fl R">第55话 对他的感情</span></div>
+                    </div>
+                    <div class="hovers clearfix">
+                        <div class="listleft fl">
+                            <a href="#">
+                                <img src="image/xintiao.i1">
+                            </a>
+                        </div>
+                        <div class="listright fl">
+                            <div class="list-title"><a href="#">渐进的心跳</a></div>
+                            <div class="labellist clearfix"><span class="fl">青春</span><span class="fl">校园</span><div></div></div>
+                            <div class="list-brief"><a href="#">男女之间真的存在着纯洁的友谊吗？</a></div>
+                            <div class="chapter">
+                                <span class="L">更新至：</span><span class="R">第55话  对他的感情</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!---->
+<!--每日更新部分-->
+<section>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-12 ">
+                <div class="reTitle clearfix">
+                    <p class="fl">每日更新</p>
+                    <div class="dailyList fl ">
+                        <span><a href="javascript:void(0)" class="dailyNav xuanzhong" >今天</a></span>
+                        <span><a href="javascript:void(0)" class="dailyNav">昨天</a></span>
+                        <span><a href="javascript:void(0)" class="dailyNav">周日</a></span>
+                        <span><a href="javascript:void(0)" class="dailyNav">周六</a></span>
+                        <span><a href="javascript:void(0)" class="dailyNav">周三</a></span>
+                        <span><a href="javascript:void(0)" class="dailyNav">周二</a></span>
+                        <span><a href="javascript:void(0)" class="dailyNav">周一</a></span>
+                    </div>
+                </div>
+                <div class="updateList">
+                    <div class="update-content clearfix">
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                    </div>
+                    <div class="update-content clearfix" style="display: none">
+
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                    </div>
+                    <div class="update-content clearfix"style="display: none">
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                    </div>
+                    <div class="update-content clearfix"style="display: none">
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                    </div>
+                    <div class="update-content clearfix"style="display: none">
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                    </div>
+                    <div class="update-content clearfix"style="display: none">
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                    </div>
+                    <div class="update-content clearfix"style="display: none">
+
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update8.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update8.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">使徒子</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">阎王不高兴</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update9.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update9.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">苍苍</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">双面主播</span><span class="fenlei fr">剧情</span></span>
+                        </div>
+                        <div class="update-item fl ">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update10.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update10.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">黑圈+白点</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">披着狼皮的羊</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update5.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update5.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">墨菲</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">谷围南亭</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update6.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">守</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">过度接触</span><span class="fenlei fr">日常</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update1.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">spoon</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">某天成为公主</span><span class="fenlei fr ">剧情</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update2.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update2.i1">
+
+                                <p class="clearfix">
+                                    <span class="autor fl">辉夜冥冥</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">长风卷</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update3.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update3.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">有狐文化</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">今天的她也是如此可爱</span><span class="fenlei fr">治愈</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update4.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">虹君</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">我的男票是锦衣卫</span><span class="fenlei fr">穿越</span></span>
+                        </div>
+                        <div class="update-item fl">
+                            <a href="#">
+                                <span class="itemimage">
+                                    <img src="image/update1.i1" alt="blank" class="imageBlank">
+                                    <img src="image/update7.i1">
+                                <p class="clearfix">
+                                    <span class="autor fl">Anige</span>
+                                    <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                </p>
+                                </span>
+                            </a>
+                            <span class="itemLinkText clearfix"><span class="title fl">昼夜连绵</span><span class="fenlei fr">奇幻</span></span>
+                        </div>
+
+                    </div>
+            </div>
+                </div>
+            </div>
+
+
+    </div>
+</section>
+<!---->
+<!--广告传播部分-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="diffuse col-md-12 ">
+                <a href="#" target="_blank">
+                    <img src="image/diffuse.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!---->
+<!--分类部分-->
+<section>
+    <div class="ba">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-12 categories">
+                <div class="categories-content">
+                    <div class="categoriesTitle clearfix">
+                        <ul>
+                            <li class="active">恋爱</li>
+                            <li>古风</li>
+                            <li>校园</li>
+                            <li>奇幻</li>
+                            <li>大女主</li>
+                            <li>治愈</li>
+                        </ul>
+                        <a class="more fr" href="classification.html">更多分类</a>
+                    </div>
+                    <div class="categoriesList">
+                        <div class="switchBox">
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/xintiao.i1" class="imageBlank">
+                                        <img  class="image" src="image/xintiao.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">橘枳</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">渐进的心跳</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/list.i1" class="imageBlank">
+                                        <img src="image/list.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">锐思+伊凯</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">甜美的咬痕</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/huli.i1" class="imageBlank">
+                                        <img src="image/huli.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">通幽+叨叨君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">捡到只小狐狸</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/jinyiwei.i1" class="imageBlank">
+                                        <img src="image/jinyiwei.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">虹君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">我男票是锦衣卫</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/zhaohuaxishi.i1" class="imageBlank">
+                                        <img src="image/zhaohuaxishi.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">壳小杀</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">朝花夕拾</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/wuhuang.i1" class="imageBlank">
+                                        <img src="image/wuhuang.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">嗷小泽</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">吾凰在上</span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="switchBox" style="display: none">
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/wuhuang.i1" class="imageBlank">
+                                        <img src="image/wuhuang.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">嗷小泽</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">吾凰在上</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/huli.i1" class="imageBlank">
+                                        <img src="image/huli.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">通幽+叨叨君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">捡到只小狐狸</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/xintiao.i1" class="imageBlank">
+                                        <img  class="image" src="image/xintiao.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">橘枳</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">渐进的心跳</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/list.i1" class="imageBlank">
+                                        <img src="image/list.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">锐思+伊凯</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">甜美的咬痕</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/jinyiwei.i1" class="imageBlank">
+                                        <img src="image/jinyiwei.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">虹君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">我男票是锦衣卫</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/zhaohuaxishi.i1" class="imageBlank">
+                                        <img src="image/zhaohuaxishi.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">壳小杀</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">朝花夕拾</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="switchBox" style="display: none">
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/wuhuang.i1" class="imageBlank">
+                                        <img src="image/wuhuang.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">嗷小泽</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">吾凰在上</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/jinyiwei.i1" class="imageBlank">
+                                        <img src="image/jinyiwei.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">虹君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">我男票是锦衣卫</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/xintiao.i1" class="imageBlank">
+                                        <img  class="image" src="image/xintiao.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">橘枳</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">渐进的心跳</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/list.i1" class="imageBlank">
+                                        <img src="image/list.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">锐思+伊凯</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">甜美的咬痕</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/zhaohuaxishi.i1" class="imageBlank">
+                                        <img src="image/zhaohuaxishi.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">壳小杀</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">朝花夕拾</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/huli.i1" class="imageBlank">
+                                        <img src="image/huli.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">通幽+叨叨君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">捡到只小狐狸</span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="switchBox" style="display: none">
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/xintiao.i1" class="imageBlank">
+                                        <img  class="image" src="image/xintiao.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">橘枳</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">渐进的心跳</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/list.i1" class="imageBlank">
+                                        <img src="image/list.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">锐思+伊凯</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">甜美的咬痕</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/huli.i1" class="imageBlank">
+                                        <img src="image/huli.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">通幽+叨叨君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">捡到只小狐狸</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/jinyiwei.i1" class="imageBlank">
+                                        <img src="image/jinyiwei.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">虹君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">我男票是锦衣卫</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/zhaohuaxishi.i1" class="imageBlank">
+                                        <img src="image/zhaohuaxishi.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">壳小杀</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">朝花夕拾</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/wuhuang.i1" class="imageBlank">
+                                        <img src="image/wuhuang.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">嗷小泽</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">吾凰在上</span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="switchBox" style="display: none">
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/xintiao.i1" class="imageBlank">
+                                        <img  class="image" src="image/xintiao.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">橘枳</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">渐进的心跳</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/jinyiwei.i1" class="imageBlank">
+                                        <img src="image/jinyiwei.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">虹君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">我男票是锦衣卫</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/zhaohuaxishi.i1" class="imageBlank">
+                                        <img src="image/zhaohuaxishi.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">壳小杀</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">朝花夕拾</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/wuhuang.i1" class="imageBlank">
+                                        <img src="image/wuhuang.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">嗷小泽</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">吾凰在上</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/list.i1" class="imageBlank">
+                                        <img src="image/list.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">锐思+伊凯</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">甜美的咬痕</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/huli.i1" class="imageBlank">
+                                        <img src="image/huli.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">通幽+叨叨君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">捡到只小狐狸</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="switchBox" style="display: none">
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/huli.i1" class="imageBlank">
+                                        <img src="image/huli.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">通幽+叨叨君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">捡到只小狐狸</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/jinyiwei.i1" class="imageBlank">
+                                        <img src="image/jinyiwei.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">虹君</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">我男票是锦衣卫</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/xintiao.i1" class="imageBlank">
+                                        <img  class="image" src="image/xintiao.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">橘枳</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">渐进的心跳</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/list.i1" class="imageBlank">
+                                        <img src="image/list.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">锐思+伊凯</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">甜美的咬痕</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/zhaohuaxishi.i1" class="imageBlank">
+                                        <img src="image/zhaohuaxishi.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">壳小杀</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">朝花夕拾</span>
+                                </a>
+
+                            </div>
+                            <div class="switchImg fl">
+                                <a href="#" target="_blank">
+                                    <div class="imgBox">
+                                        <img src="image/wuhuang.i1" class="imageBlank">
+                                        <img src="image/wuhuang.i1">
+                                        <div class="imgfooter clearfix">
+                                            <span class="autor fl">嗷小泽</span>
+                                            <span class="zan fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                                        </div>
+                                    </div>
+                                    <span class="switchImgTitle">吾凰在上</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!---->
+<!--投稿专区-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="ContributeArea col-md-12">
+                <div class="ContributeArea-header clearfix">
+                    <h3 class="fl">投稿专区</h3>
+                </div>
+                <div class="ConList fl padr16">
+                    <div class="ConBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/tashimao.i1" alt="tashimao">
+                                <span class="Con_t"><i class="like_item fl">古风</i><i class="like_item fl">唯美</i>
+                                    <i class="like_item fl">少女</i><i class="like_item fl">投稿</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="ConTitle">他是猫</span>
+                    </div>
+                <div class="ConList fl padr16">
+                    <div class="ConBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/yeyongheng.i1" alt="yeyonghen">
+                                <span class="Con_t"><i class="like_item fl">恋爱</i><i class="like_item fl">奇幻</i>
+                                    <i class="like_item fl">投稿</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="ConTitle">夜永恒</span>
+                </div>
+                <div class="ConList fl padr16">
+                    <div class="ConBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/mowang.i1" alt="mowang">
+                                <span class="Con_t"><i class="like_item fl">日常</i><i class="like_item fl">恋爱</i>
+                                    <i class="like_item fl">治愈</i><i class="like_item fl">投稿</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="ConTitle">听说魔王喜欢我</span>
+                </div>
+                <div class="ConList fl padr16">
+                    <div class="ConBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/tianpin.i1" alt="tianpin">
+                                <span class="Con_t"><i class="like_item fl">日常</i><i class="like_item fl">爆笑</i>
+                                    <i class="like_item fl">治愈</i><i class="like_item fl">投稿</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="ConTitle">来啊来啊，甜品店</span>
+                </div>
+                <div class="ConList fl padr16">
+                    <div class="ConBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/xingdaoshui.i1" alt="xingdaoshuiqiongchu">
+                                <span class="Con_t"><i class="like_item fl">古风</i><i class="like_item fl">剧情</i>
+                                    <i class="like_item fl">玄幻</i><i class="like_item fl">投稿</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="ConTitle">行到水穷处</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---->
+<!--排行榜专区-->
+<section class="rankBackground">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="rankContent">
+                    <div class="rankTitle clearfix">
+                        <ul>
+                            <li class="active">综合榜</li>
+                            <li>少女榜</li>
+                            <li>青女榜</li>
+                        </ul>
+                        <a href="#" class="more fr">更多榜单</a>
+                    </div>
+                    <div class="rankListTop">
+                    <div class="rankList clearfix">
+                        <a href="#" class="fl rankitem mgr16">
+                        <div class="imageBox fl">
+                            <img src="image/rank1.i1" class="imageBlank">
+                            <img src="image/rank1.i1">
+                        </div>
+
+                        <div class="rankBox fl">
+                            <p class="rank">
+                                <span class="rank1">TOP1</span>
+                                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                <span class="rank2">上升1名</span>
+                            </p>
+                            <p class="title">谷围南亭</p>
+                            <p class="autor">墨飞</p>
+                            <p class="intr">少年高影无意间住入一破落城中村的旅店，却意外...</p>
+
+
+                        </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank2.i1" class="imageBlank">
+                                <img src="image/rank2.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP2</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升1名</span>
+                                </p>
+                                <p class="title">魔道祖师</p>
+                                <p class="autor">墨香铜臭（原著）+落地成球</p>
+                                <p class="intr">改编自墨香铜臭原创同名小说，前世掀起腥风血雨...</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank3.i1" class="imageBlank">
+                                <img src="image/rank3.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP3</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升2名</span>
+                                </p>
+                                <p class="title">成也萧河</p>
+                                <p class="autor">壳小杀+左小翎</p>
+                                <p class="intr">医学系男神在游戏中吊打全服通缉第一女贼...</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank4.i1" class="imageBlank">
+                                <img src="image/rank4.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP4</span>
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <span class="rank2">稳居第4</span>
+                                </p>
+                                <p class="title">怦然心动</p>
+                                <p class="autor">kid岁</p>
+                                <p class="intr">少男少女同住一个屋檐下，一同经历青春的懵懂和..</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank5.i1" class="imageBlank">
+                                <img src="image/rank5.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP5</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升1名</span>
+                                </p>
+                                <p class="title">超能立方</p>
+                                <p class="autor">水落声声</p>
+                                <p class="intr">平凡男生偶得女神垂青，却惹上黑道大佬，机缘巧合...</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank6.i1" class="imageBlank">
+                                <img src="image/rank6.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP6</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升3名</span>
+                                </p>
+                                <p class="title">徒有虚颜</p>
+                                <p class="autor">栗子</p>
+                                <p class="intr">虚拟网络改变了很多人的人生，也包括...</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank7.i1" class="imageBlank">
+                                <img src="image/rank7.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP7</span>
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <span class="rank2">稳居第7</span>
+                                </p>
+                                <p class="title">《给我哭》</p>
+                                <p class="autor">炎久</p>
+                                <p class="intr">习惯孤独的陆浅，将一切情绪都寄托在音乐上。在某...</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank8.i1" class="imageBlank">
+                                <img src="image/rank8.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP8</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升12名</span>
+                                </p>
+                                <p class="title">魔尊奶爸</p>
+                                <p class="autor">Alan酱</p>
+                                <p class="intr">杀手楚岚为人所害，死后进入冥界，他用了五百...</p>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank9.i1" class="imageBlank">
+                                <img src="image/rank9.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP9</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升3名</span>
+                                </p>
+                                <p class="title">甜美的咬痕</p>
+                                <p class="autor">锐思+伊凯</p>
+                                <p class="intr">人类和血族的爱恨情仇...</p>
+
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rankList clearfix"style="display: none">
+                            <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank4.i1" class="imageBlank">
+                                <img src="image/rank4.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP1</span>
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <span class="rank2">稳居第1</span>
+                                </p>
+                                <p class="title">怦然心动</p>
+                                <p class="autor">kid岁</p>
+                                <p class="intr">少男少女同住一个屋檐下，一同经历青春的懵懂和..</p>
+
+
+                            </div>
+                        </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank1.i1" class="imageBlank">
+                                    <img src="image/rank1.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP2</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">新晋黑马</span>
+                                    </p>
+                                    <p class="title">今天的她也是如此可爱</p>
+                                    <p class="autor">有狐文化</p>
+                                    <p class="intr">沉迷学习无心社交的女学霸，似乎对吊车尾女学生...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank2.i1" class="imageBlank">
+                                    <img src="image/rank2.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP3</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升1名</span>
+                                    </p>
+                                    <p class="title">魔道祖师</p>
+                                    <p class="autor">墨香铜臭（原著）+落地成球</p>
+                                    <p class="intr">改编自墨香铜臭原创同名小说，前世掀起腥风血雨...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank3.i1" class="imageBlank">
+                                    <img src="image/rank3.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP4</span>
+                                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                                        <span class="rank2">下降1名</span>
+                                    </p>
+                                    <p class="title">成也萧河</p>
+                                    <p class="autor">壳小杀+左小翎</p>
+                                    <p class="intr">医学系男神在游戏中吊打全服通缉第一女贼...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank5.i1" class="imageBlank">
+                                    <img src="image/rank5.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP5</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升1名</span>
+                                    </p>
+                                    <p class="title">超能立方</p>
+                                    <p class="autor">水落声声</p>
+                                    <p class="intr">平凡男生偶得女神垂青，却惹上黑道大佬，机缘巧合...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank6.i1" class="imageBlank">
+                                    <img src="image/rank6.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP6</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升3名</span>
+                                    </p>
+                                    <p class="title">徒有虚颜</p>
+                                    <p class="autor">栗子</p>
+                                    <p class="intr">虚拟网络改变了很多人的人生，也包括...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank7.i1" class="imageBlank">
+                                    <img src="image/rank7.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP7</span>
+                                        <i class="fa fa-minus" aria-hidden="true"></i>
+                                        <span class="rank2">稳居第7</span>
+                                    </p>
+                                    <p class="title">《给我哭》</p>
+                                    <p class="autor">炎久</p>
+                                    <p class="intr">习惯孤独的陆浅，将一切情绪都寄托在音乐上。在某...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank8.i1" class="imageBlank">
+                                    <img src="image/rank8.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP8</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升12名</span>
+                                    </p>
+                                    <p class="title">魔尊奶爸</p>
+                                    <p class="autor">Alan酱</p>
+                                    <p class="intr">杀手楚岚为人所害，死后进入冥界，他用了五百...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank9.i1" class="imageBlank">
+                                    <img src="image/rank9.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP9</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升3名</span>
+                                    </p>
+                                    <p class="title">甜美的咬痕</p>
+                                    <p class="autor">锐思+伊凯</p>
+                                    <p class="intr">人类和血族的爱恨情仇...</p>
+
+
+                                </div>
+                            </a>
+                        </div>
+                    <div class="rankList clearfix"style="display: none">
+                            <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank2.i1" class="imageBlank">
+                                <img src="image/rank2.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP1</span>
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <span class="rank2">稳居第一</span>
+                                </p>
+                                <p class="title">魔道祖师</p>
+                                <p class="autor">墨香铜臭（原著）+落地成球</p>
+                                <p class="intr">改编自墨香铜臭原创同名小说，前世掀起腥风血雨...</p>
+
+
+                            </div>
+                        </a>
+                            <a href="#" class="fl rankitem mgr16">
+                        <div class="imageBox fl">
+                            <img src="image/rank6.i1" class="imageBlank">
+                            <img src="image/rank6.i1">
+                        </div>
+
+                        <div class="rankBox fl">
+                            <p class="rank">
+                                <span class="rank1">TOP2</span>
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                <span class="rank2">稳居第二</span>
+                            </p>
+                            <p class="title">徒有虚颜</p>
+                            <p class="autor">栗子</p>
+                            <p class="intr">虚拟网络改变了很多人的人生，也包括...</p>
+
+
+                        </div>
+                    </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank1.i1" class="imageBlank">
+                                    <img src="image/rank1.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP3</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升1名</span>
+                                    </p>
+                                    <p class="title">谷围南亭</p>
+                                    <p class="autor">墨飞</p>
+                                    <p class="intr">少年高影无意间住入一破落城中村的旅店，却意外...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank9.i1" class="imageBlank">
+                                <img src="image/rank9.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP4</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升3名</span>
+                                </p>
+                                <p class="title">甜美的咬痕</p>
+                                <p class="autor">锐思+伊凯</p>
+                                <p class="intr">人类和血族的爱恨情仇...</p>
+
+
+                            </div>
+                        </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank4.i1" class="imageBlank">
+                                    <img src="image/rank4.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP5</span>
+                                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                                        <span class="rank2">下降2名</span>
+                                    </p>
+                                    <p class="title">怦然心动</p>
+                                    <p class="autor">kid岁</p>
+                                    <p class="intr">少男少女同住一个屋檐下，一同经历青春的懵懂和..</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank5.i1" class="imageBlank">
+                                    <img src="image/rank5.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP6</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升1名</span>
+                                    </p>
+                                    <p class="title">超能立方</p>
+                                    <p class="autor">水落声声</p>
+                                    <p class="intr">平凡男生偶得女神垂青，却惹上黑道大佬，机缘巧合...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank7.i1" class="imageBlank">
+                                    <img src="image/rank7.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP7</span>
+                                        <i class="fa fa-minus" aria-hidden="true"></i>
+                                        <span class="rank2">稳居第7</span>
+                                    </p>
+                                    <p class="title">《给我哭》</p>
+                                    <p class="autor">炎久</p>
+                                    <p class="intr">习惯孤独的陆浅，将一切情绪都寄托在音乐上。在某...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                                <div class="imageBox fl">
+                                    <img src="image/rank8.i1" class="imageBlank">
+                                    <img src="image/rank8.i1">
+                                </div>
+
+                                <div class="rankBox fl">
+                                    <p class="rank">
+                                        <span class="rank1">TOP8</span>
+                                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                        <span class="rank2">上升12名</span>
+                                    </p>
+                                    <p class="title">魔尊奶爸</p>
+                                    <p class="autor">Alan酱</p>
+                                    <p class="intr">杀手楚岚为人所害，死后进入冥界，他用了五百...</p>
+
+
+                                </div>
+                            </a>
+                            <a href="#" class="fl rankitem mgr16">
+                            <div class="imageBox fl">
+                                <img src="image/rank3.i1" class="imageBlank">
+                                <img src="image/rank3.i1">
+                            </div>
+
+                            <div class="rankBox fl">
+                                <p class="rank">
+                                    <span class="rank1">TOP9</span>
+                                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                    <span class="rank2">上升2名</span>
+                                </p>
+                                <p class="title">成也萧河</p>
+                                <p class="autor">壳小杀+左小翎</p>
+                                <p class="intr">医学系男神在游戏中吊打全服通缉第一女贼...</p>
+
+
+                            </div>
+                        </a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---->
+<!--适合专区-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 appropriate">
+                <div class="likeTitle">
+                    <p>高能集结，总有一款适合你</p>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend11.i1" class="imageBlank">
+                                <img src="image/recommend11.i1"  class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">治愈</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">贫穷公主掠夺计划</span>
+                    <div class="like_footer clearfix"><span >鲤鱼丸一</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend2.i1" class="imageBlank">
+                                <img src="image/recommend2.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">日常</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">我不喜欢这世界，我只喜欢你</span>
+                    <div class="like_footer clearfix"><span >乔一（原著）+夏天岛</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend3.i1" class="imageBlank">
+                                <img src="image/recommend3.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">奇幻</i><i class="like_item fl">剧情</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">垫底魔女</span>
+                    <div class="like_footer clearfix"><span >唐糖</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend4.i1" class="imageBlank">
+                                <img src="image/recommend4.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">校园</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">朝花夕拾</span>
+                    <div class="like_footer clearfix"><span >壳小杀+左小翎</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend5.i1" class="imageBlank">
+                                <img src="image/recommend5.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">校园</i><i class="like_item fl">唯美</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">薄荷之夏</span>
+                    <div class="like_footer clearfix"><span >火禾</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend6.i1" class="imageBlank">
+                                <img src="image/recommend6.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">校园</i><i class="like_item fl">唯美</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">恋是樱草色</span>
+                    <div class="like_footer clearfix"><span >漫阅优品</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend7.i1" class="imageBlank">
+                                <img src="image/recommend7.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">爆笑</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">学长的少女心</span>
+                    <div class="like_footer clearfix"><span >锄见</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend8.i1" class="imageBlank">
+                                <img src="image/recommend8.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">剧情</i><i class="like_item fl">治愈</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">泽上寂寞萤火</span>
+                    <div class="like_footer clearfix"><span >千本</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend9.i1" class="imageBlank">
+                                <img src="image/recommend9.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">剧情</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">贫穷游戏</span>
+                    <div class="like_footer clearfix"><span >郭晓</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+                <div class="recommendList fl mgr16">
+                    <div class="recommendBox">
+                        <a href="#">
+                            <div>
+                                <img src="image/recommend10.i1" class="imageBlank">
+                                <img src="image/recommend10.i1" alt="" class="recommendimage">
+                                <span class="like_t"><i class="like_item fl">恋爱</i><i class="like_item fl">奇幻</i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="itemTitle otherTitle">他与她的平行时空</span>
+                    <div class="like_footer clearfix"><span >月色樱草</span>
+                        <span class="fr"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span >99万+</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---->
+
+
+<!--尾部-->
+<<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!---->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/switch.js"></script>
+<script src="js/rolls.js"></script>
+
+
+
+
+<!--<script>
+    $(".hovers").hide();
+    $(".popularlist").children().first().children(".hovers").show();
+    $(".list-tit").click(function () {
+        $(this).next().slideToggle();
+        $(this).parent().siblings().children(".hovers").slideUp();
+    })
+
+</script>-->
+
+</body>
+</html>

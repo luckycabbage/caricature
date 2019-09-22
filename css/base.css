@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+a{
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none
+}
+.dailyList a:visited{
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style: none;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.mragin_c{
+    width: 50%;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+.pdr16{
+    padding-right: 16px;
+}
+.mgr16{
+    margin-right: 16px;
+    margin-top: 16px;
+}
+.padr16{
+padding-right: 16px;
+}
+

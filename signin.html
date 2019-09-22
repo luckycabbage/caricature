@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link href="css/classification.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/signin.css" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-color gao">
+    <div class="container-fluid container" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <h4>Cartoon</h4>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">首页 </a></li>
+                <li><a href="classification.html">分类</a></li>
+                <li><a href="#">排行榜</a>  </li>
+                <li ><a href="#">APP下载</a></li>
+                <li ><a href="#">同人社区</a></li>
+                <li ><a href="#">动漫安利</a></li>
+                <li ><a href="#">我要投稿</a></li>
+                <li ><a href="#">大触觉醒</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!--登陆-------------------------->
+                <li>
+                    <a href="signin.html" >登录</a>
+                </li>
+                <!--注册---------------------------------->
+                <li>
+                    <a href="logon.html" >注册</a>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control search" placeholder="搜索">
+            </form>
+        </div>
+    </div>
+</nav>
+<section class="bb">
+    <div class="box1"><img src="image/12.jpg" alt="tree" width="400" height="600"></div>
+
+    <div class="box2">
+        <p>登录</p>
+        <div class="line">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" name="user" placeholder="请输入账号"  maxlength="15" id="uname"><i class="fa  remind1" aria-hidden="true"></i>
+        </div>
+        <div class="line2">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password"name="password" placeholder="请输入密码" maxlength="20" id="upwd"><i class="fa remind2" aria-hidden="true"></i>
+        </div>
+
+        <div class="line5">
+            <div id="agree"><input type="checkbox" checked="checked">记住我<span class="fr"><a  href="javascript:void (0)">忘记密码？</a></span></div>
+
+        </div>
+        <input class="btn" type="button" name="" value="登录">
+        <div class="line6">还没有账号？<a href="logon.html">立即注册</a></div>
+    </div>
+</section>
+<div class="footer2"></div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script>
+    /*验证用户名和密码是否为空*/
+    $(document).ready(function(){
+    $(".btn").on("click",function () {
+        var $name=$("input[name='user']");
+        var $password=$("input[name='password']");
+        var _name=$.trim($name.val());
+        var _password=$.trim($password.val());
+
+        if(""==_name){
+            $(".remind1").removeClass("fa-check").addClass("fa-times");
+            $(".remind1").css("color","red");
+            $name.focus();
+        }else  {
+            $(".remind1").removeClass("fa-times").addClass("fa-check");
+            $(".remind1").css("color","#76ff6a");
+        }
+        if (""==_password){
+            $(".remind2").removeClass("fa-check").addClass("fa-times");
+            $password.focus();
+            $(".remind2").css("color","red");
+
+        }else {
+            $(".remind2").removeClass("fa-times").addClass("fa-check");
+            $(".remind2").css("color","#76ff6a");
+        }
+    })
+});</script>
+</body>
+</html>
+

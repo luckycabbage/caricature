@@ -1,0 +1,708 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-default{
+    border-color:#34495e ;
+}
+.navbar-color{
+    background:#34495e;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 16px;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: silver;
+}
+.navbar-brand>h4{
+    color: #a6d3ff;
+}
+.search{
+    border-radius: 50px;
+    margin: 7px 0;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-footer,.form-group{
+    text-align: center;
+}
+ .btn-default{
+     padding: 6px 55px;
+     border-radius:15px;
+}
+.input_p{
+    width: 50%;
+    margin:0 auto;
+}
+.input_f{
+    width: 50%;
+}
+.modal-footer p{
+    margin: 15px 10px;
+}
+.vcode{
+    width: 50%;
+}
+.vcode+a{
+    font-size: 16px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+/*轮播图----------------*/
+.banner{
+    width: 100%;
+    height: 450px;
+    background: #2e365e;
+
+}
+.banner-box{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    padding-top: 15px;
+    overflow: hidden;
+    min-width: 1200px;
+    max-width: 2264px;
+}
+#imageleft{
+    float: left;
+    position: absolute;
+    width: 800px;
+    height: 388px;
+    left: -300px;
+    overflow: hidden;
+    border-radius:10px;
+    z-index: 2;
+}
+#imageleft ul {
+    height:100%;
+}
+#imageleft ul li {
+    width: 880px;
+    height:100%;
+    float:left
+}
+
+#imagecontent,
+#imageright{
+    position: absolute;
+    width: 850px;
+    height: 388px;
+    overflow: hidden;
+    border-radius:10px;
+    z-index: 2;
+}
+#imagecontent{
+    left: 510px;
+}
+#imagecontent ul ,
+#imageright ul{
+    height:100%;
+}
+#imagecontent ul li
+,#imageright ul li{
+    width: 880px;
+    height:100%;
+    float:left
+}
+#imageright{
+    right: -315px;
+}
+/*遮罩--------------------*/
+.boxhide-left{
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    background-image: linear-gradient(to right, black, #bfc2c5);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.boxhide-right{
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    background-image: linear-gradient(to left, black, #bfc2c5);
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+}
+/* 轮播图下的导航*/
+.box-nav{
+    position: absolute;
+    width: 100%;
+    background: #2e365e;
+}
+.box-nav-c{
+    width: 50%;
+    margin: 14px auto;
+}
+ .box-nav-c a{
+    margin:0 20px;
+    color: white;
+    font-size: 16px;
+}
+ .fa-list-ul{
+     color: white;
+ }
+ /*人气榜部分*/
+.popularlist{
+    padding-bottom: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+.hovers{
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.listleft{
+    position: relative;
+    width: 120px;
+    height: 162px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-size:60% ;
+}
+.listleft a img{
+    width: 100%;
+    height: 100%;
+}
+.listright{
+    padding-left: 12px;
+    width: 224px;
+}
+.list-title{
+    width: 100%;
+    line-height: 26px;
+    font-size: 18px;
+    color: #333333;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.labellist{
+    padding:6px 0;
+    cursor: default;
+
+}
+.labellist span{
+    display: block;
+    padding-right: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+
+}
+.list-brief>a{
+    display: block;
+    width: 224px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #999999;
+    cursor: default;
+    overflow: hidden;
+}
+.chapter{
+    display: block;
+    padding-top: 16px;
+}
+.L{
+    line-height: 20px;
+    font-size: 14px;
+    color: #999999;
+}
+.R{
+    size: 14px;
+    color: #F56C6C;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-tit{
+    max-width: 356px;
+    width: 356px;
+    display: block;
+    height: 20px;
+    margin-bottom: 12px;
+}
+.right,.left{
+    height: 20px;
+    line-height: 20px;
+}
+.left strong{
+    width: 10px;
+    line-height: 20px;
+    padding-right: 21px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #B8B8B8;
+}
+.left span{
+    display: block;
+    line-height: 20px;
+    max-width: 112px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tt{
+    display: block;
+    line-height: 20px;
+    max-width: 112px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*like部分*/
+.likeTitle {
+    font-size: 26px;
+    margin-top: 15px;
+}
+.likeTitle p{
+    margin: 0;
+}
+.likeList{
+    width: 20%;
+}
+.likeBox{
+    position: relative;
+    width: 100%;
+
+}
+.imgs{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 192px;
+    border-radius: 4px;
+}
+
+.like_t{
+    width: 136px;
+    position: absolute;
+    left: 2px;
+    right: 6px;
+    bottom: 6px;
+}
+.like_item{
+    max-width: 41%;
+    display: block;
+    margin-left: 4px;
+    padding: 0 4px;
+    font-size: 12px;
+    line-height: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-style: normal;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.itemTitle{
+    box-sizing: border-box;
+    padding: 4px 6px;
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.like_footer{
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 17px;
+    font-size: 12px;
+    color: #999999;
+}
+.likeBox img:hover{
+    opacity: 0.8;
+}
+
+/*每日更新*/
+.reTitle{
+    margin-top: 50px;
+
+}
+.reTitle p{
+    font-size: 26px;
+}
+.dailyList{
+    padding-left: 30px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.dailyNav{
+    color: black;
+    margin-right: 28px;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.update-item{
+    padding: 14px 16px 0 0;
+    width: 20%;
+
+
+}
+.imageBlank{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: none;
+    transition: -webkit-transform .4s ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.update-item img{
+    width: 100%;
+    height: 100%;
+}
+.update-item p{
+    position: absolute;
+    color: #f3f9f6;
+    margin-bottom: 2px;
+    bottom: 0px;
+    padding: 4px 6px;
+    width: 212px;
+    height: 21px;
+    background: none;
+}
+.itemimage{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 140px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.autor{
+    display: block;
+    max-width: 144px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.itemLinkText{
+    display: block;
+    padding: 4px 6px 0 6px;
+    padding-bottom: 0;
+    width: 212px;
+    height: 20px;
+}
+.itemLinkText span{
+    display: block;
+    line-height: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zan{
+    display: block;
+    max-width: 66px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei{
+    max-width: 70px;
+    color: #999999;
+}
+.xuanzhong {
+    color: orange;
+}
+/*传播板块*/
+.diffuse{
+    margin: 45px auto;
+}
+.diffuse img {
+    width: 100%;
+}
+/*分类部分*/
+.categories-content{
+    margin-bottom: 40px;
+}
+.ba{
+    background: url("../image/ba.jpg")no-repeat;
+}
+.categoriesTitle{
+    margin-top: 40px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.categoriesTitle li{
+    float: left;
+    color: white;
+    margin-right: 20px;
+    width: 150px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 24px;
+    cursor: pointer;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.categoriesTitle .active{
+    font-weight: normal;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    font-size: 30px;
+}
+.more{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 83px;
+    text-align: center;
+    border: 1px solid #ADAAAA;
+    border-radius: 2px;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #EFEEEE;
+    cursor: pointer;
+}
+.more:hover{
+    color: #dddddd;
+    border-color: white;
+}
+.switchBox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 30px;
+    overflow: hidden;
+}
+.switchImg{
+    width: 15%;
+    margin: 23px 18px 0 0;
+    transition: margin-top 0.3s;
+}
+.switchImg:hover{
+    margin-top: 10px;
+    opacity: 0.8;
+    color: white;
+}
+
+.switchImg img{
+    width: 100%;
+}
+
+.imgBox{
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+.imgfooter{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+    height: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(98%, rgba(0, 0, 0, 0.72)));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.72) 98%);
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.72) 98%);
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.switchImgTitle{
+    font-size: 18px;
+    color: white;
+    opacity: 0.8;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+/*投稿部分*/
+.ContributeArea-header{
+    margin-bottom: 10px;
+}
+.ConBox{
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+.ConBox img{
+    width: 100%;
+    height: 100%;
+}
+.ConList{
+    width: 20%;
+}
+.ConBox:hover{
+    opacity: 0.8;
+}
+.ConTitle{
+    display: block;
+    margin: 6px 6px 0;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #333333;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Con_t{
+    position: absolute;
+    left: 2px;
+    right: 6px;
+    bottom: 6px;
+}
+
+/*排行榜部分*/
+.rankBackground{
+    margin-top: 40px;
+    background: url("../image/rankbackground.jpg")no-repeat;
+    background-size: cover;
+}
+.rankContent{
+    margin: 50px 0 20px 0;
+    width: 100%;
+}
+.rankTitle{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.rankTitle li{
+    float: left;
+    margin-right: 42px;
+    font-weight: lighter;
+    font-size: 24px;
+    cursor: pointer;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    color: white;
+}
+.rankTitle .active{
+    font-weight: normal;
+    opacity: 1;
+    font-size: 30px;
+}
+.rankitem{
+    display: inline-block;
+    margin-top: 16px;
+    height: 180px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+.imageBox{
+    position: relative;
+    height: 100%;
+    width: 180px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.imageBox:hover{
+    opacity: 0.8;
+}
+.imageBox img{
+    position: absolute;
+    top: -24px;
+    width: 100%;
+}
+.rankBox{
+    padding-left: 12px;
+    height: 100%;
+    width: 180px;
+    color: #dddddd;
+}
+.rank{
+    padding-top: 18px;
+}
+ .rankList>a:hover{
+    color: white;
+}
+.rank1{
+     background: orangered;
+    border-radius: 5px;
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    padding: 4px;
+}
+.rank i{
+margin-left: 20px;
+}
+.title{
+    height: 28px;
+    line-height: 28px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+/*适合专区*/
+.recommendList{
+    width: 18%;
+}
+.recommendBox{
+    position: relative;
+}
+.recommendimage{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.appropriate{
+    margin: 40px 0;
+}
+.otherTitle{
+    font-size: 20px;
+}
+
+/*尾部*/
+footer{
+    background:#34495e ;
+    width: 100%;
+    height: 300px;
+}

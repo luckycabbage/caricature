@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link href="css/classification.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/logon.css" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-color gao">
+    <div class="container-fluid container" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <h4>Cartoon</h4>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">首页 </a></li>
+                <li><a href="classification.html">分类</a></li>
+                <li><a href="#">排行榜</a>  </li>
+                <li ><a href="#">APP下载</a></li>
+                <li ><a href="#">同人社区</a></li>
+                <li ><a href="#">动漫安利</a></li>
+                <li ><a href="#">我要投稿</a></li>
+                <li ><a href="#">大触觉醒</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!--登陆-------------------------->
+                <li>
+                    <a href="signin.html" >登录</a>
+                </li>
+                <!--注册---------------------------------->
+                <li>
+                    <a href="logon.html" >注册</a>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control search" placeholder="搜索">
+            </form>
+        </div>
+    </div>
+</nav>
+<section class="bb">
+<div class="box1"><img src="image/12.jpg" alt="tree" width="400" height="600"></div>
+
+<div class="box2">
+    <p>注册</p>
+    <div class="line">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <input type="text" name="user" placeholder="输入用户名"  maxlength="15" ><i class="fa remind1" aria-hidden="true"></i>
+    </div>
+    <div class="line2">
+        <i class="fa fa-key" aria-hidden="true"></i>
+        <input type="password"name="password" placeholder="请输入密码" maxlength="20"><i class="fa remind2" aria-hidden="true"></i>
+    </div>
+    <div class="line3">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="password"name="password2" placeholder="请再次输入密码" maxlength="20"><i class="fa remind3" aria-hidden="true"></i>
+    </div>
+    <div class="line3">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <input type="text" name="email"placeholder="输入你的邮箱"><i class="fa remind4" aria-hidden="true"></i>
+    </div>
+    <div class="line3">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <input type="text" name="phone" placeholder="输入你的电话号码"><i class="fa remind5" aria-hidden="true"></i>
+    </div>
+
+    <div class="line4">
+        <span>验证码:</span>
+        <div>
+            <input type="text" name="Verification Code" value="" ><img src="image/vcode.jpg">
+        </div>
+    </div>
+    <div class="line5">
+        <p id="agree"><input type="checkbox" checked="checked">同意
+            <a href="#">“服务条款”</a>和<a href="#">“隐私权相关政策”
+            </a></p>
+    </div>
+    <input class="btn" type="button" name="" value="注册">
+</div>
+</section>
+<div class="footer2"></div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+$(".btn").on("click",function () {
+    var $name=$("input[name='user']");
+    var $password=$("input[name='password']");
+    var $password2=$("input[name='password2']");
+    var $email=$("input[name='email']");
+    var $phone=$("input[name='phone']");
+
+
+var _name=$.trim($name.val());
+var _password=$.trim($password.val());
+var _password2=$.trim($password2.val());
+var _email=$.trim($email.val());
+var _phone=$.trim($phone.val());
+
+if(""==_name){
+$(".remind1").removeClass("fa-check").addClass("fa-times");
+$(".remind1").css("color","red");
+$name.focus();
+}else  {
+$(".remind1").removeClass("fa-times").addClass("fa-check");
+$(".remind1").css("color","#76ff6a");
+}
+if (""==_password){
+$(".remind2").removeClass("fa-check").addClass("fa-times");
+$password.focus();
+$(".remind2").css("color","red");
+
+}else {
+$(".remind2").removeClass("fa-times").addClass("fa-check");
+$(".remind2").css("color","#76ff6a");
+}
+    if (""==_password2){
+        $(".remind3").removeClass("fa-check").addClass("fa-times");
+        $password.focus();
+        $(".remind3").css("color","red");
+
+    }else {
+        $(".remind3").removeClass("fa-times").addClass("fa-check");
+        $(".remind3").css("color","#76ff6a");
+    }
+    if (""==_email){
+        $(".remind4").removeClass("fa-check").addClass("fa-times");
+        $password.focus();
+        $(".remind4").css("color","red");
+
+    }else {
+        $(".remind4").removeClass("fa-times").addClass("fa-check");
+        $(".remind4").css("color","#76ff6a");
+    }
+    if (""==_phone){
+        $(".remind5").removeClass("fa-check").addClass("fa-times");
+        $password.focus();
+        $(".remind5").css("color","red");
+
+    }else {
+        $(".remind5").removeClass("fa-times").addClass("fa-check");
+        $(".remind5").css("color","#76ff6a");
+    }
+
+})
+});</script>
+</body>
+</html>
